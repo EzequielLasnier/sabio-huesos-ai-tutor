@@ -13,6 +13,32 @@
 * Secure Auth: Token-based middleware (`token_server.py`) to protect Google Cloud credentials.
 * Test on: Windows.
 
+---
+
+## Technical Architecture
+
+### 1. System Overview
+High-level component interaction between the Local Environment (Student/Classroom) and Google Cloud Platform. Note the **Token Server** middleware ensuring security by isolating credentials from the client.
+
+<div align="center">
+  <img src="assets/system-architecture.png" width="90%" alt="System Architecture Diagram">
+  <br>
+  <sub><i>Fig 1. Architecture: Python Async Client, Local Security Layer, and Vertex AI Integration.</i></sub>
+</div>
+
+<br>
+
+### 2. RAG Inference Workflow
+The "Socratic Brain" logic. This sequence diagram illustrates how the system intercepts the user's voice, retrieves context from the vector store (FAISS), and constructs an augmented prompt before generating a response.
+
+<div align="center">
+  <img src="assets/data-flow.png" width="90%" alt="RAG Data Flow Diagram">
+  <br>
+  <sub><i>Fig 2. Execution Pipeline: Speech-to-Text -> Vector Retrieval -> Prompt Engineering -> TTS.</i></sub>
+</div>
+
+---
+
 ## Installation
 
 ### Prerequisites
