@@ -1,0 +1,46 @@
+# SEGURIDAD Y CREDENCIALES
+# Nunca subir claves API, secretos o configuraciones locales
+service-account-key.json
+*.env
+.env.local
+*.pem
+*.key
+secrets.json
+
+# ENTORNOS VIRTUALES
+# Carpetas donde se instalan las librerías (pesan mucho)
+venv/
+.venv/
+env/
+ENV/
+
+# PYTHON & CACHE
+# Archivos compilados que se generan automáticamente
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribución y builds (si empaquetas el proyecto)
+build/
+dist/
+*.egg-info/
+
+# PROYECTO: SABIO HUESOS (Archivos Generados)
+# Índice vectorial de FAISS (se regenera al correr el código)
+faiss_index/
+
+# Logs de errores o ejecución (si los tuvieras)
+*.log
+
+# IDE & SISTEMA OPERATIVO
+# Archivos de configuración de VS Code (opcional, recomendado ignorar)
+.vscode/
+.idea/
+
+# Basura de macOS
+.DS_Store
+
+# Basura de Windows
+Thumbs.db
+ehthumbs.db

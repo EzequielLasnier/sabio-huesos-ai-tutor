@@ -1,0 +1,14 @@
+﻿# requirements.txt (version 1.0 / Version token efímero)
+
+
+google-generativeai>=0.8.0,<0.9.0
+langchain-google-genai>=2.0.10,<2.1.0
+langchain
+langchain-community
+faiss-cpu
+pypdf
+pyaudio
+fastapi
+uvicorn[standard]
+google-auth
+requests
