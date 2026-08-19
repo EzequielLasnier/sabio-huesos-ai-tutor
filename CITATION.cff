@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use or reference this project, please cite it as below."
+title: "sabio-huesos-ai-tutor"
+authors:
+  - family-names: "Lasnier"
+    given-names: "Ezequiel"
+    affiliation: "Lead Developer"
+  - family-names: "Suarez"
+    given-names: "Paola"
+    affiliation: "Co-author"
+version: 1.0.0
+date-released: 2025
+license: "MIT"
+repository-code: "https://github.com/EzequielLasnier/sabio-huesos-ai-tutor"
