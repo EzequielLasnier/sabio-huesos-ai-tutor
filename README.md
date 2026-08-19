@@ -133,5 +133,11 @@ pip uninstall google-generativeai
 pip install google-generativeai
 ```
 
+## Contributors & Acknowledgments
+
+Thanks to these wonderful people who contributed to this project:
+
+Paola Suarez.
+
 ## Contribution
 Contributions are welcome! 
